@@ -16,10 +16,10 @@ RUN apt-get install -y python3 python3-pip
 
 # Download and install spark
 RUN	cd /usr/local/ &&\
-    wget "http://apache.cs.utah.edu/spark/spark-2.4.1/spark-2.4.1-bin-hadoop2.7.tgz" &&\
-	tar -xvzf spark-2.4.1-bin-hadoop2.7.tgz && \
-	ln -s ./spark-2.4.1-bin-hadoop2.7 spark &&  \
-	rm -rf /usr/local/spark-2.4.1-bin-hadoop2.7.tgz && \
+    wget "http://apache.cs.utah.edu/spark/spark-2.4.2/spark-2.4.2-bin-hadoop2.7.tgz" &&\
+	tar -xvzf spark-2.4.2-bin-hadoop2.7.tgz && \
+	ln -s ./spark-2.4.2-bin-hadoop2.7 spark &&  \
+	rm -rf /usr/local/spark-2.4.2-bin-hadoop2.7.tgz && \
 	rm -rf /usr/local/spark/external && \
 	chmod a+rwx -R /usr/local/spark/
 RUN pip3 install numpy

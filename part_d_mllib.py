@@ -16,9 +16,13 @@ if __name__ == "__main__":
     raw_test_data = sc.textFile("dataset/test-features.data")
 
     # TODO: Parse RDD from raw training data
+    # Hint: Look at the format of data required by the random forest classifier
+    # Hint 2: map() can be used to process each line in raw_training_data and
+    # raw_test_data
     training_data = None
 
     # TODO: Parse RDD from raw test data
+    # Hint: Look at the data format required by the random forest classifier
     test_data = None
 
     predictions = predict(training_data, test_data)
