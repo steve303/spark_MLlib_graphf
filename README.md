@@ -1,6 +1,6 @@
-# CS 498 - MP5 Templates
+# CS 498 - MP11 Templates
 
-This repository contains templates to help you get started with MP5.
+This repository contains templates to help you get started with MP11.
 
 # ML vs MLLib
 - Parts B and D (MLLib exercises) can be solved using either the
