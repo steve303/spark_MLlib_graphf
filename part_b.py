@@ -61,7 +61,7 @@ def parse_line(line):
     # Hint: Look at the data format and columns required by the KMeans fit and
     # transform functions
     line = line.strip().split(',')
-    line[0] = line[0].strip('"')
+    #line[0] = line[0].strip('"')
     line[1:] = [float(line[i]) for i in range(1, len(line))]
     return line
 
