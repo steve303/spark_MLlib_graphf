@@ -30,7 +30,7 @@ def predict(df_train, df_test):
     #df_trans_test.show()
     
     #set up classifier and predict:
-    rf = RandomForestClassifier(featuresCol = 'features', labelCol = 'label', numTrees=10, seed=1, maxDepth=20)
+    rf = RandomForestClassifier(featuresCol = 'features', labelCol = 'label', numTrees= 500, seed=1, maxDepth=30)
     rfModel = rf.fit(df_trans_train)
     predictions = rfModel.transform(df_trans_test)
     #predictions.select('prediction', 'probability').show(10)
