@@ -1,6 +1,4 @@
-# CS 498 - MP11 Templates
-
-This repository contains templates to help you get started with MP11.
+# Spark - MLlib, graphframes
 
 # ML vs MLLib
 - Parts B and D (MLLib exercises) can be solved using either the
